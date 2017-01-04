@@ -17,6 +17,26 @@
 		074A0F101E1D98C1008C7378 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074A0F0F1E1D98C1008C7378 /* Assets.xcassets */; };
 		074A0F131E1D98C1008C7378 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074A0F111E1D98C1008C7378 /* MainMenu.xib */; };
 		074A0F1E1E1D98C1008C7378 /* dnmmacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074A0F1D1E1D98C1008C7378 /* dnmmacOSTests.swift */; };
+		0FF5CB73485B743CB634B30A /* ArithmeticTools.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2B68AA674297FF3171864E /* ArithmeticTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		199FEFADDCE347F117A7EC5F /* ScoreViewLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04705C9E1A904912B6DA531D /* ScoreViewLayer.framework */; };
+		221A76D75D47A4A48E1C2B58 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B56A3FB44337579583790FA /* ScoreModelLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4886CC377733E646B182EB2E /* ScoreModelLayer.framework */; };
+		4EB9FEF00EB9349BBA15D452 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61BACE17A953F92AD01E601F /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		623268C0048421C2478680BE /* ScoreViewLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B0490812B5513C5E2A6C20 /* ScoreViewLayer.framework */; };
+		A5442DFD3F0397A3812021A6 /* ScoreViewLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9B0490812B5513C5E2A6C20 /* ScoreViewLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEDED0AC51FD6D8C1DEA97F8 /* ScoreModelLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4886CC377733E646B182EB2E /* ScoreModelLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0A280B83C10DB80F3108618 /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2E274E6347F244082CF1208 /* Collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E653C6F40254602D2FD7C3 /* Collections.framework */; };
+		B7FC32973B489022A4CB4DAF /* Collections.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5715F33E8912C418AA066D /* Collections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B8665892DF5245F2F47C4B6A /* ScoreModelLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 770161A8D8882A84285A77F6 /* ScoreModelLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C94CA9B1EADCEA481B306D21 /* Collections.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 62E653C6F40254602D2FD7C3 /* Collections.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D1FB8C6354937B6381A9B96B /* ArithmeticTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76890402E5E3DDA9C128C40 /* ArithmeticTools.framework */; };
+		DD640F4720997AE3DF559D51 /* Collections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F5715F33E8912C418AA066D /* Collections.framework */; };
+		E3EE817ECB726897175C6B12 /* ArithmeticTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2B68AA674297FF3171864E /* ArithmeticTools.framework */; };
+		EC57AE8A7D43693361DE76E7 /* ScoreViewLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04705C9E1A904912B6DA531D /* ScoreViewLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F188A83CDF85CF945CF1E48B /* ArithmeticTools.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E76890402E5E3DDA9C128C40 /* ArithmeticTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FB119CF5F4A8006A4CF7C322 /* ScoreModelLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 770161A8D8882A84285A77F6 /* ScoreModelLayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +56,63 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2EA2577A8FC58705EAC89113 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4EB9FEF00EB9349BBA15D452 /* BuildFile in Embed Frameworks */,
+				221A76D75D47A4A48E1C2B58 /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4264D866C94A4528FCBE7DE7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0FF5CB73485B743CB634B30A /* ArithmeticTools.framework in Embed Frameworks */,
+				B7FC32973B489022A4CB4DAF /* Collections.framework in Embed Frameworks */,
+				AEDED0AC51FD6D8C1DEA97F8 /* ScoreModelLayer.framework in Embed Frameworks */,
+				EC57AE8A7D43693361DE76E7 /* ScoreViewLayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87E5CEA4294933016B6E59 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0A280B83C10DB80F3108618 /* BuildFile in Embed Frameworks */,
+				61BACE17A953F92AD01E601F /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F1E5400C15A1D51B39DF599 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F188A83CDF85CF945CF1E48B /* ArithmeticTools.framework in Embed Frameworks */,
+				C94CA9B1EADCEA481B306D21 /* Collections.framework in Embed Frameworks */,
+				B8665892DF5245F2F47C4B6A /* ScoreModelLayer.framework in Embed Frameworks */,
+				A5442DFD3F0397A3812021A6 /* ScoreViewLayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04705C9E1A904912B6DA531D /* ScoreViewLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScoreViewLayer.framework; path = Carthage/Build/Mac/ScoreViewLayer.framework; sourceTree = "<group>"; };
 		074A0EE41E1D9848008C7378 /* dnm iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dnm iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074A0EE71E1D9848008C7378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		074A0EE91E1D9848008C7378 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,7 +123,7 @@
 		074A0EF81E1D9848008C7378 /* dnm iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnm iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074A0EFC1E1D9848008C7378 /* dnmiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnmiOSTests.swift; sourceTree = "<group>"; };
 		074A0EFE1E1D9848008C7378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		074A0F0B1E1D98C1008C7378 /* dnm mac OS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dnm mac OS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		074A0F0B1E1D98C1008C7378 /* dnm macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dnm macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074A0F0D1E1D98C1008C7378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		074A0F0F1E1D98C1008C7378 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		074A0F121E1D98C1008C7378 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -55,6 +131,13 @@
 		074A0F191E1D98C1008C7378 /* dnm macOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dnm macOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		074A0F1D1E1D98C1008C7378 /* dnmmacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dnmmacOSTests.swift; sourceTree = "<group>"; };
 		074A0F1F1E1D98C1008C7378 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D2B68AA674297FF3171864E /* ArithmeticTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArithmeticTools.framework; path = Carthage/Build/Mac/ArithmeticTools.framework; sourceTree = "<group>"; };
+		3F5715F33E8912C418AA066D /* Collections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collections.framework; path = Carthage/Build/Mac/Collections.framework; sourceTree = "<group>"; };
+		4886CC377733E646B182EB2E /* ScoreModelLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScoreModelLayer.framework; path = Carthage/Build/Mac/ScoreModelLayer.framework; sourceTree = "<group>"; };
+		62E653C6F40254602D2FD7C3 /* Collections.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Collections.framework; path = Carthage/Build/iOS/Collections.framework; sourceTree = "<group>"; };
+		770161A8D8882A84285A77F6 /* ScoreModelLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScoreModelLayer.framework; path = Carthage/Build/iOS/ScoreModelLayer.framework; sourceTree = "<group>"; };
+		B9B0490812B5513C5E2A6C20 /* ScoreViewLayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScoreViewLayer.framework; path = Carthage/Build/iOS/ScoreViewLayer.framework; sourceTree = "<group>"; };
+		E76890402E5E3DDA9C128C40 /* ArithmeticTools.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ArithmeticTools.framework; path = Carthage/Build/iOS/ArithmeticTools.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1FB8C6354937B6381A9B96B /* ArithmeticTools.framework in Frameworks */,
+				B2E274E6347F244082CF1208 /* Collections.framework in Frameworks */,
+				FB119CF5F4A8006A4CF7C322 /* ScoreModelLayer.framework in Frameworks */,
+				623268C0048421C2478680BE /* ScoreViewLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +163,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EE817ECB726897175C6B12 /* ArithmeticTools.framework in Frameworks */,
+				DD640F4720997AE3DF559D51 /* Collections.framework in Frameworks */,
+				4B56A3FB44337579583790FA /* ScoreModelLayer.framework in Frameworks */,
+				199FEFADDCE347F117A7EC5F /* ScoreViewLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +186,7 @@
 				074A0F271E1D98FB008C7378 /* iOS */,
 				074A0F261E1D98F5008C7378 /* macOS */,
 				074A0EE51E1D9848008C7378 /* Products */,
+				9D484975B25A004658F834ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +195,7 @@
 			children = (
 				074A0EE41E1D9848008C7378 /* dnm iOS.app */,
 				074A0EF81E1D9848008C7378 /* dnm iOS Tests.xctest */,
-				074A0F0B1E1D98C1008C7378 /* dnm mac OS.app */,
+				074A0F0B1E1D98C1008C7378 /* dnm macOS.app */,
 				074A0F191E1D98C1008C7378 /* dnm macOS Tests.xctest */,
 			);
 			name = Products;
@@ -173,6 +265,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		4CC6BC3FF17DF03FDE072415 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B68AA674297FF3171864E /* ArithmeticTools.framework */,
+				3F5715F33E8912C418AA066D /* Collections.framework */,
+				4886CC377733E646B182EB2E /* ScoreModelLayer.framework */,
+				04705C9E1A904912B6DA531D /* ScoreViewLayer.framework */,
+			);
+			name = macOS;
+			sourceTree = "<group>";
+		};
+		741048E2421397E5D31B2549 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E76890402E5E3DDA9C128C40 /* ArithmeticTools.framework */,
+				62E653C6F40254602D2FD7C3 /* Collections.framework */,
+				770161A8D8882A84285A77F6 /* ScoreModelLayer.framework */,
+				B9B0490812B5513C5E2A6C20 /* ScoreViewLayer.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D484975B25A004658F834ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				741048E2421397E5D31B2549 /* iOS */,
+				4CC6BC3FF17DF03FDE072415 /* macOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -183,6 +306,8 @@
 				074A0EE01E1D9848008C7378 /* Sources */,
 				074A0EE11E1D9848008C7378 /* Frameworks */,
 				074A0EE21E1D9848008C7378 /* Resources */,
+				B4C0E24A968E159A93BBF36C /* ShellScript */,
+				6F1E5400C15A1D51B39DF599 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +325,7 @@
 				074A0EF41E1D9848008C7378 /* Sources */,
 				074A0EF51E1D9848008C7378 /* Frameworks */,
 				074A0EF61E1D9848008C7378 /* Resources */,
+				5AFC9C1640E6A8D21961B36C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -211,21 +337,23 @@
 			productReference = 074A0EF81E1D9848008C7378 /* dnm iOS Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		074A0F0A1E1D98C1008C7378 /* dnm mac OS */ = {
+		074A0F0A1E1D98C1008C7378 /* dnm macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 074A0F241E1D98C1008C7378 /* Build configuration list for PBXNativeTarget "dnm mac OS" */;
+			buildConfigurationList = 074A0F241E1D98C1008C7378 /* Build configuration list for PBXNativeTarget "dnm macOS" */;
 			buildPhases = (
 				074A0F071E1D98C1008C7378 /* Sources */,
 				074A0F081E1D98C1008C7378 /* Frameworks */,
 				074A0F091E1D98C1008C7378 /* Resources */,
+				152F5A7739468CAE8D32BCCA /* ShellScript */,
+				4264D866C94A4528FCBE7DE7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "dnm mac OS";
+			name = "dnm macOS";
 			productName = dnmmacOS;
-			productReference = 074A0F0B1E1D98C1008C7378 /* dnm mac OS.app */;
+			productReference = 074A0F0B1E1D98C1008C7378 /* dnm macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		074A0F181E1D98C1008C7378 /* dnm macOS Tests */ = {
@@ -235,6 +363,7 @@
 				074A0F151E1D98C1008C7378 /* Sources */,
 				074A0F161E1D98C1008C7378 /* Frameworks */,
 				074A0F171E1D98C1008C7378 /* Resources */,
+				096B8DFF1105C6EE0981C601 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -295,7 +424,7 @@
 			targets = (
 				074A0EE31E1D9848008C7378 /* dnm iOS */,
 				074A0EF71E1D9848008C7378 /* dnm iOS Tests */,
-				074A0F0A1E1D98C1008C7378 /* dnm mac OS */,
+				074A0F0A1E1D98C1008C7378 /* dnm macOS */,
 				074A0F181E1D98C1008C7378 /* dnm macOS Tests */,
 			);
 		};
@@ -336,6 +465,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		096B8DFF1105C6EE0981C601 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArithmeticTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Collections.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreModelLayer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreViewLayer.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		152F5A7739468CAE8D32BCCA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArithmeticTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Collections.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreModelLayer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreViewLayer.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		5AFC9C1640E6A8D21961B36C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArithmeticTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Collections.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreModelLayer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreViewLayer.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		B4C0E24A968E159A93BBF36C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ArithmeticTools.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Collections.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreModelLayer.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ScoreViewLayer.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		074A0EE01E1D9848008C7378 /* Sources */ = {
@@ -381,7 +581,7 @@
 		};
 		074A0F1B1E1D98C1008C7378 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 074A0F0A1E1D98C1008C7378 /* dnm mac OS */;
+			target = 074A0F0A1E1D98C1008C7378 /* dnm macOS */;
 			targetProxy = 074A0F1A1E1D98C1008C7378 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -512,6 +712,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = dnmiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -526,6 +728,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = dnmiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -541,6 +745,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = dnmiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.dnmiOSTests;
@@ -556,6 +761,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS";
 				INFOPLIST_FILE = dnmiOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bean.dnmiOSTests;
@@ -572,6 +778,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				INFOPLIST_FILE = dnmmacOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -589,6 +796,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				INFOPLIST_FILE = dnmmacOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -607,6 +815,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				INFOPLIST_FILE = dnmmacOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -626,6 +835,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = F8LCL8SXLX;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac";
 				INFOPLIST_FILE = dnmmacOSTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -667,13 +877,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		074A0F241E1D98C1008C7378 /* Build configuration list for PBXNativeTarget "dnm mac OS" */ = {
+		074A0F241E1D98C1008C7378 /* Build configuration list for PBXNativeTarget "dnm macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				074A0F201E1D98C1008C7378 /* Debug */,
 				074A0F211E1D98C1008C7378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		074A0F251E1D98C1008C7378 /* Build configuration list for PBXNativeTarget "dnm macOS Tests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +893,7 @@
 				074A0F231E1D98C1008C7378 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
